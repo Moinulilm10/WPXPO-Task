@@ -38,7 +38,9 @@ const WheelSpinner2 = () => {
   return (
     <div className="text-center m-11">
       <div className="items-center text-xl">
-        <h1 className="text-bold text-3xl">Spinner Wheel</h1>
+        <h1 className="text-bold font-bold  text-blue-950 text-3xl">
+          Spinner Wheel
+        </h1>
       </div>
       <div className="flex flex-row justify-center items-center">
         <div className="flex flex-1 justify-normal items-center">
