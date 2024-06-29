@@ -4,7 +4,11 @@
 
 ![](https://github.com/Moinulilm10/WPXPO-Task/blob/main/task_1_spinning-wheel/src/assets/project_ss.png)
 
-### 2. For run this project follow the instructions step by step like this:
+### 2. Here is live link of Task 1
+
+[https://frabjous-sable-58ac95.netlify.app/](https://frabjous-sable-58ac95.netlify.app/)
+
+### 3. For run this project follow the instructions step by step like this:
 
 - Clone this repository:
 
