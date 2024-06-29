@@ -1,9 +1,10 @@
-import WheelSpinner from "./components/WheelSpinner";
+import WheelSpinner2 from "./components/WheelSpinner2";
 
 function App() {
   return (
     <>
-      <WheelSpinner />
+      {/* <WheelSpinner /> */}
+      <WheelSpinner2 />
     </>
   );
 }
