@@ -1,4 +1,3 @@
-// src/components/Wheel.js
 import { useEffect, useRef } from "react";
 
 const Wheel = ({ names, colors, isSpinning, onSpinEnd }) => {
@@ -38,14 +37,14 @@ const Wheel = ({ names, colors, isSpinning, onSpinEnd }) => {
       const canvas = canvasRef.current;
       const ctx = canvas.getContext("2d");
       let angle = 0;
-      let spinAngleStart = Math.random() * 10 + 10;
+      let spinAngleStart = Math.random() * 10 + 30; // Increased starting spin angle for faster initial spin
       let spinTime = 0;
-      const spinTimeTotal = Math.random() * 3 + 4 * 1000;
+      const spinTimeTotal = (Math.random() * 3 + 4) * 1500; // Increased total spin time for longer duration
 
       const rotateWheel = () => {
         spinTime += 30;
         if (spinTime >= spinTimeTotal) {
-          const degrees = (angle * 180) / Math.PI + 90;
+          const degrees = (angle * 180) / Math.PI + 90 + 270;
           const arcd = (2 * Math.PI) / names.length;
           const index = Math.floor(
             (360 - (degrees % 360)) / (360 / names.length)

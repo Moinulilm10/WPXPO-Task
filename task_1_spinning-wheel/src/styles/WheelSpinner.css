@@ -24,7 +24,7 @@ button:disabled {
   margin: 1em 0;
 }
 
-.arrow {
+/* .arrow {
   position: absolute;
   top: -20px;
   left: 50%;
@@ -36,6 +36,19 @@ button:disabled {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 30px solid rgb(23, 37, 84);
+} */
+
+.arrow {
+  position: absolute;
+  top: 200px;
+  right: -29px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-radius: 3px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 45px solid rgb(23, 37, 84); /* Changed from border-left to border-right */
 }
 
 .names-list {

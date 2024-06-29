@@ -1,5 +1,4 @@
-// src/components/WheelSpinner.js
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/WheelSpinner.css";
 import AddNameForm from "./AddNameForm";
 import NameList from "./NameList";

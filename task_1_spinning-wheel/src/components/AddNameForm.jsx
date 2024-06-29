@@ -1,4 +1,3 @@
-// src/components/AddNameForm.js
 import { useState } from "react";
 
 const AddNameForm = ({ addName }) => {
