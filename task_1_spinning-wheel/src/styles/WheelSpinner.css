@@ -1,0 +1,44 @@
+.input-container {
+  margin: 1em 0;
+}
+
+input {
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.wheel-container {
+  position: relative;
+  margin: 1em 0;
+}
+
+.arrow {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotate(-180deg);
+  width: 0;
+  height: 0;
+  border-radius: 3px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid rgb(23, 37, 84);
+}
+
+.names-list {
+  text-align: left;
+  margin-top: 1em;
+}
